@@ -36,7 +36,6 @@ void methodTwo()
   {
     weekend = true;
   }
-
   if (weekDay ==0)
   {
     println("monday");
@@ -47,7 +46,7 @@ void methodTwo()
   }
   if (weekDay ==2)
   {
-    println("wednesdat");
+    println("wednesday");
   }
   if (weekDay ==3)
   {
@@ -70,12 +69,10 @@ void methodTwo()
 
 
   // Print if it is weekend here:
-  
-  if (weekend==false){
-  print("So it is not weekend");
-  }
-  else {
-  print("It is weekend, so enjoy it!");
-  
+
+  if (weekend==false) {
+    print("So it is not weekend");
+  } else {
+    print("It is weekend, so enjoy it!");
   }
 }

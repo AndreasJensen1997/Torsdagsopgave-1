@@ -1,14 +1,14 @@
-int input = 40;
+int input = 20;
 int start = input;
 
 void setup() {
 
-  for (int i = 0; i < 40; i++) {
+  for (int i = 0; i < 20; i++) {
     input --;
 
-    if (input == 6) { ///////////////// Det er vigtigt at der bliver brugt else if statement her, hvis man gerne vil have at "6" og "10" ikke skal printes. 
+    if (input == 6) {        // Det er vigtigt at der bliver brugt else if statement her, hvis man gerne vil have at "6" og "10" ikke skal printes. 
       println("six");
-    } else if (input == start/2) { ////////// Jeg sætter en variabel til inputs startværdi, så jeg kan sørge for uanset hvad jeg ændrer inputs værdi til, vil den printe half ud halvejs. 
+    } else if (input == start/2) {       // Jeg sætter en variabel til inputs startværdi, så jeg kan sørge for uanset hvad jeg ændrer inputs værdi til, vil den printe half ud halvejs. 
       println("HALF!");
     } else {
       println(input);

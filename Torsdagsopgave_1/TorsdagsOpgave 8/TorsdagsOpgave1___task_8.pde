@@ -9,14 +9,11 @@ float x; // cirklens lokation på x-aksen
 float y; // cirklens lokation på y-aksen
 
 
-
   size (600, 600);
   background (0);
   smooth ( );
 
-
-
-  while (antalCirkler<=100){
+  while (antalCirkler<100){
 
    r=random(255);
   g=random(255);
